@@ -1,0 +1,8 @@
+@mixin marginPaddingZero {
+	margin: 0px;
+	padding: 0px;
+}
+
+.App {
+	@include marginPaddingZero();
+}
